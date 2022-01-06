@@ -4,6 +4,8 @@ import sys as sys
 import os
 import subprocess
 import ssl
+import pprint
+import collections
 
 
 # from django.db.models.expressions import RawSQL
@@ -38,6 +40,7 @@ class RandomNumberGenerator:
 
     def get_number(self, min_max=[1, 10]):
         """Get a random number between min and max."""
+        collections
         assert all([isinstance(i, int) for i in min_max])
         return random.randint(*min_max)
 
