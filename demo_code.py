@@ -36,6 +36,7 @@ class RandomNumberGenerator:
     """Generate random numbers."""
 
     def limits(self):
+        a = 2
         return self.limits
 
     def get_number(self, min_max=[1, 10]):
