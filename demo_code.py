@@ -7,6 +7,10 @@ import ssl
 import pprint
 import collections
 
+import this
+
+list = dict
+
 
 # from django.db.models.expressions import RawSQL
 
