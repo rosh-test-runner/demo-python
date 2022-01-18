@@ -9,8 +9,8 @@ import collections
 
 import this
 
-list = dict
 
+list = dict
 
 # from django.db.models.expressions import RawSQL
 
