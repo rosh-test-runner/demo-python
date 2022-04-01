@@ -60,7 +60,6 @@ class ImaginaryNumber:
 
 
 def main(options: dict = {}) -> str:
-    pdb.set_trace()
     if "run" in options:
         value = options["run"]
     else:
@@ -70,7 +69,7 @@ def main(options: dict = {}) -> str:
         raise Exception()
     else:
         value = iter(value)
-
+    breakpoint()
     sorted(value, key=lambda k: len(k))
 
     f = open("/tmp/.deepsource.toml", "r")
