@@ -8,3 +8,7 @@ print(b, nums)
 breakpoint()
 
 breakpoint()
+
+def aaa(a=[]):
+  breakpoint()
+  return 1
