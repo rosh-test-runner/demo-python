@@ -1,5 +1,4 @@
 import random
-import pdb
 import sys as sys
 import os
 import subprocess
@@ -69,7 +68,6 @@ def main(options: dict = {}) -> str:
         raise Exception()
     else:
         value = iter(value)
-    breakpoint()
     sorted(value, key=lambda k: len(k))
 
     f = open("/tmp/.deepsource.toml", "r")
