@@ -12,3 +12,9 @@ breakpoint()
 def aaa(a=[]):
   breakpoint()
   return 1
+
+def test(a=[]):
+  return a
+
+def test2(b={}):
+  return b
