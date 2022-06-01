@@ -19,3 +19,5 @@ def foo(b=[]):
 
 def bar(a):
   return 1
+
+breakpoint()
