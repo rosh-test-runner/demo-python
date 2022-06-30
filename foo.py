@@ -26,3 +26,8 @@ import os
 filename = os.tmpnam()
 with open(filename, 'w') as f:
   pass
+
+
+f = open("/tmp/.deepsource.toml", "r")
+f.write("config file.")
+f.close()
