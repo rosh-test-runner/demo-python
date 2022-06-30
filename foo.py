@@ -32,3 +32,4 @@ def another_test_method():
   f = open("/tmp/.deepsource.toml", "r")
   f.write("config file.")
   f.close()
+  print('abc')
