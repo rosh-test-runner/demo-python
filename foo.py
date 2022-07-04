@@ -4,6 +4,7 @@ nums = [i for i in range(10)]
 
 a = 1
 b = 2
+assert a == 1
 print(b, nums)
 
 def baz(a=[]):
