@@ -28,6 +28,12 @@ filename = os.tmpnam()
 with open(filename, 'w') as f:
   pass
 
+def bam(a=[]):
+  breakpoint()
+  filename = os.tmpnam()
+  breakpoint()
+  return filename
+  
 
 def another_test_method():
   f = open("/tmp/.deepsource.toml", "r")
