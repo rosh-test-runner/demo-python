@@ -33,7 +33,13 @@ def bam(a=[]):
   filename = os.tmpnam()
   breakpoint()
   return filename
-  
+
+
+def boom(a=[]):
+  breakpoint()
+  filename = os.tmpnam()
+  breakpoint()
+  return filename
 
 def another_test_method():
   f = open("/tmp/.deepsource.toml", "r")
