@@ -21,6 +21,9 @@ def foo(b=[]):
 def bar(a):
   return 1
 
+def zaz(a=[]):
+  return 1
+
 breakpoint()
 
 import os
