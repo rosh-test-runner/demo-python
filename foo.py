@@ -11,7 +11,6 @@ def baz(a=[]):
   return 0
 
 def aaa(a=[]):
-  breakpoint()
   return 1
 
 
@@ -20,8 +19,6 @@ def foo(b=[]):
 
 def bar(a):
   return 1
-
-breakpoint()
 
 import os
 filename = os.tmpnam()
