@@ -6,7 +6,7 @@ a = 1
 b = 2
 assert a == 1
 print(b, nums)
-
+am
 def baz(a=[]):
   return 0
 
@@ -40,3 +40,6 @@ def another_test_method():
   
 def testing_method(a=None):
   print(a)
+
+def bam():
+  print('bam!')
