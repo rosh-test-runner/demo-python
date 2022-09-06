@@ -21,6 +21,7 @@ def bar(a):
   return 1
 
 import os
+
 filename = os.tmpnam()
 with open(filename, 'w') as f:
   pass
@@ -37,7 +38,5 @@ def another_test_method():
   f.close()
   print('abc')
   
-filename = os.tmpnam()
-
-def testing_method(a=[]):
+def testing_method(a=None):
   print(a)
