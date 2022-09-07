@@ -40,6 +40,6 @@ def another_test_method():
 filename = os.tmpnam()
 
 
-def bam(a=[]):
-  breakpoint()
+def bam(a=None):
+  b = 2
   print('hello')
