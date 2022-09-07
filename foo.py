@@ -40,6 +40,5 @@ def another_test_method():
 filename = os.tmpnam()
 
 
-def bam(a=None):
-  b = 2
+def bam():
   print('hello')
