@@ -25,7 +25,8 @@ class ResidentsDb:
         self.conn.commit()
         return data
     
-    def foo(self):
+    @staticmethod
+    def foo():
         breakpoint()
         print('hello')
 
