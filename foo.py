@@ -39,3 +39,6 @@ def another_test_method():
   
 filename = os.tmpnam()
 
+
+def bam():
+  print('hello')
