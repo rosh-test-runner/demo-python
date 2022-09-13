@@ -19,11 +19,15 @@ class ResidentsDb:
         self.conn = sqlite3.connect(self.dbname)
         self.cursor = self.conn.cursor()
 
-    def get_id_from_name(self, name):
+    def get_id_from_name(self):
         """Get id of resident from name."""
         data = None
         self.conn.commit()
         return data
+    
+    def foo(self):
+        breakpoint()
+        print('hello')
 
 
 def fetch_version(request):
