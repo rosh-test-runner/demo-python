@@ -21,9 +21,7 @@ class ResidentsDb:
 
     def get_id_from_name(self, name):
         """Get id of resident from name."""
-        data = self.cursor.execute(
-            "SELECT id FROM userdata WHERE Name ={};".format(name)
-        )
+        data = None
         self.conn.commit()
         return data
 
