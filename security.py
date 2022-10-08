@@ -27,7 +27,6 @@ class ResidentsDb:
     
     @staticmethod
     def foo():
-        breakpoint()
         print('hello')
 
 

@@ -35,9 +35,7 @@ with open(filename, 'w') as f:
 def boom(a=None):
   if a is None:
     a = []
-  breakpoint()
   filename = os.tmpnam()
-  breakpoint()
   return filename
 
 def another_test_method():
