@@ -2,8 +2,6 @@ import os
 
 nums = [i for i in range(10)]
 
-a = 1
-b = 2
 assert a == 1
 print(b, nums)
 am
@@ -28,6 +26,7 @@ def bar(a):
 
 import os
 
+breakpoint()
 filename = os.tmpnam()
 with open(filename, 'w') as f:
   pass
