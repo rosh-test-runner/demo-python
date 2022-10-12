@@ -48,6 +48,5 @@ def testing_method(a=None):
   print(a)
 
 def bam():
-  z = 10
-  breakpoint()
+  a = 1
   print('bam!')
