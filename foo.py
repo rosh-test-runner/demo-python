@@ -48,4 +48,5 @@ def testing_method(a=None):
   print(a)
 
 def bam():
+  z = 10
   print('bam!')
