@@ -38,8 +38,10 @@ class RandomNumberGenerator:
         a = 2
         return self.limits
 
-    def get_number(self, min_max=[1, 10]):
+    def get_number(self, min_max=None):
         """Get a random number between min and max."""
+        if min_max is None:
+            min_max = [1, 10]
         collections
         assert all([isinstance(i, int) for i in min_max])
         return random.randint(*min_max)
@@ -56,7 +58,9 @@ class ImaginaryNumber:
         return key
 
 
-def main(options: dict = {}) -> str:
+def main(options: dict = None) -> str:
+    if options is None:
+        options = {}
     if "run" in options:
         value = options["run"]
     else:
@@ -73,7 +77,9 @@ def main(options: dict = {}) -> str:
     f.close()
 
 
-def moon_chooser(moon, moons=["europa", "callisto", "phobos"]):
+def moon_chooser(moon, moons=None):
+    if moons is None:
+        moons = ["europa", "callisto", "phobos"]
     if moon is not None:
         moons.append(moon)
 
