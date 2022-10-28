@@ -49,3 +49,8 @@ def testing_method(a=None):
 def bam():
   a = 1
   print('bam!')
+  
+def issues_prevented(a=[]):
+  breakpoint()
+  b = 0
+  return 2
