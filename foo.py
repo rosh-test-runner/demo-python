@@ -2,9 +2,9 @@ import os
 
 nums = [i for i in range(10)]
 
-assert a == 1
+if a != 1:
+  raise AssertionError
 print(b, nums)
-am
 def baz(a=None):
   if a is None:
     a = []
@@ -23,10 +23,6 @@ def foo(b=None):
 
 def bar(a):
   return 1
-
-import os
-
-breakpoint()
 filename = os.tmpnam()
 with open(filename, 'w') as f:
   pass
@@ -49,3 +45,9 @@ def testing_method(a=None):
 def bam():
   a = 1
   print('bam!')
+  
+def issues_prevented(a=None):
+  if a is None:
+    a = []
+  b = 0
+  return 2
