@@ -48,6 +48,6 @@ def bam():
   
 def issues_prevented(a=None):
   if a is None:
-    a = []
+    a = [i for i in range(10)]
   b = 0
   return 2
