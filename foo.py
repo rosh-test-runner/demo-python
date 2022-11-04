@@ -1,6 +1,6 @@
 import os
 
-nums = [i for i in range(10)]
+nums = list(range(10))
 
 if a != 1:
   raise AssertionError
