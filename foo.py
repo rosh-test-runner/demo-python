@@ -38,16 +38,3 @@ def another_test_method():
   f.write("config file.")
   f.close()
   print('abc')
-  
-def testing_method(a=None):
-  print(a)
-
-def bam():
-  a = 1
-  print('bam!')
-  
-def issues_prevented(a=None):
-  if a is None:
-    a = [i for i in range(10)]
-  b = 0
-  return 2
