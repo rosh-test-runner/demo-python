@@ -33,8 +33,6 @@ def boom(a=None):
   filename = os.tmpnam()
   return filename
 
-def another_test_method():
-  f = open("/tmp/.deepsource.toml", "r")
-  f.write("config file.")
-  f.close()
-  print('abc')
+def baz(a=None):
+  breakpoint()
+  return 0
