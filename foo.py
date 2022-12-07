@@ -32,7 +32,3 @@ def boom(a=None):
     a = []
   filename = os.tmpnam()
   return filename
-
-def baz(a=None):
-  breakpoint()
-  return 0
