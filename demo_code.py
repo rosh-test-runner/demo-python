@@ -136,6 +136,7 @@ def chained_comparison():
 def wrong_callable():
     number = ImaginaryNumber()
     if hasattr(number, "__call__"):
+        breakpoint()
         return number()
 
 
