@@ -32,3 +32,5 @@ def boom(a=None):
     a = []
   filename = os.tmpnam()
   return filename
+
+s = f"some text that doesn't utilize f string syntax"
