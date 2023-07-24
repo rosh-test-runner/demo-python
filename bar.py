@@ -8,4 +8,5 @@ def foo(a=None):
 
 def bar(z=None):
     print('useless')
-    assert z
+    if not z:
+        raise AssertionError
