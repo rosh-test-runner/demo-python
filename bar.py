@@ -6,6 +6,8 @@ breakpoint()
 def foo(a=None):
     print("abc")
 
+
 def bar(z=None):
-    print('useless')
-    assert z
+    print("useless")
+    if not z:
+        raise AssertionError
